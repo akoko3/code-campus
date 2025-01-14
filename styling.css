@@ -1,0 +1,27 @@
+/* styling the p and the div */
+
+p, div{
+    /* text-decoration: underline; */
+    width: 50%;
+}
+
+/* styling pen to red background color */
+
+.pen{
+    background-color: red;
+    color: white;
+}
+
+/* styling the book attribute */
+
+.book{
+    background-color: blue;
+    color: white;
+}
+
+
+
+*{
+    margin: auto;
+    text-align: center;
+}

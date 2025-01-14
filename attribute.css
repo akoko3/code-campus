@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+form{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+input[type="text"], input[type="tel"]{
+    display: block; 
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+input[type="radio"]{
+    display: flex;
+    width: 5%;
+    text-align: auto;
+    margin: auto;
+}

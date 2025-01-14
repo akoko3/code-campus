@@ -1,0 +1,15 @@
+*{
+    text-align: center;
+}
+.up{
+    background-color: rgb(5, 5, 42);
+    color: white;
+    text-align: center;
+}
+button{
+    size: 10000px;
+    background-color: green;
+}
+.table{
+    align-items: center;
+}

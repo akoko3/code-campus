@@ -1,0 +1,37 @@
+/* selector:the pseudoClass property you want to use */
+
+h1:hover{
+    color: red;
+}
+
+/* selector::the pseudoElement property you want to use */
+
+h1::first-letter{
+    font-size: 50px;
+    color: cadetblue;
+}
+
+p::first-line{
+    color: blue;
+    font-style: italic ;
+}
+
+/* unvisited */
+a:link{
+    color: blue;
+}
+
+/* visited */
+a:visited{
+    color: purple;
+}
+
+/* hover */
+a:hover{
+    color: black;
+    background-color: white;
+}
+
+a:active{
+    color: red;
+}

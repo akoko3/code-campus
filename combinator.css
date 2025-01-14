@@ -1,0 +1,34 @@
+/* descendant selector: parentName space the descendant element  */
+.p1 h1{
+    color: red;
+}
+
+.p1 p{
+    color: brown;
+}
+
+div p{
+    color: blue;
+}
+.p2 p{
+    background-color: yellow;
+}
+
+
+/* child selector: parentName > the child element */
+
+.p1>p{
+    background-color: greenyellow;
+}
+
+/* Adjacent sibling elector:sibling+sibling you want to style */
+a+p{
+    font-size: 24px;
+}
+
+
+/* General sibling selector: sibling~siblings to style */
+h2~span{
+    color: green;
+    font-size: 34px;
+}
